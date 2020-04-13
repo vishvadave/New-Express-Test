@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vishvadave/New-Express-Test/issues"
   },
-  "homepage": "https://github.com/vishvadave/New-Express-Test#readme"
+  "homepage": "https://github.com/vishvadave/New-Express-Test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
