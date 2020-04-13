@@ -30,11 +30,11 @@ app.get('/query', (req, res) => {
 })
 
 //creating an API
-// request('https://apis.instadapp.io/price', function (error, response, body) {
-//   if (!error && response.statusCode == 200) {
-//     console.log(body)
-//   }
-// })
+request('https://apis.instadapp.io/price', function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+    console.log(body)
+  }
+})
 
 //creating a route for /getprice
 app.get('/getprice', (req, res) => {
